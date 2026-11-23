@@ -1,0 +1,10 @@
+ak.txt
+# local terraform directory
+.terraform/*
+
+# terraform state files
+*.tfstate
+*.tfstate.*
+
+# tf variables files, may contain sensitive data, such as provider credentials
+*.tfvars
